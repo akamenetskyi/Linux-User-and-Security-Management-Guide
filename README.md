@@ -105,7 +105,11 @@ Set Hostname: Assign a unique hostname to the system:
 sudo hostnamectl set-hostname USERNAME-system
 ```
 
-Alternatively, editing /etc/hostname with a text editor provides the same result. The chosen hostname helps in identifying the server's purpose or owner at a glance.
+Alternatively, editing 
+```bash
+sudo vim /etc/hostname
+```
+with a text editor provides the same result. The chosen hostname helps in identifying the server's purpose or owner at a glance.
 
 ## Step 7: Configuring SSH Access
 
